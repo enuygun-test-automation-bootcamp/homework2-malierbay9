@@ -10,7 +10,7 @@ public class TestExistenceOfElement {
 
     public TestExistenceOfElement(){ //yapıcı metot
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\malie\\IdeaProjects\\test-selenium\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
         this.driver = new ChromeDriver();                   //Chrome driver oluşturuyoruz.
         this.driver.get("https://demoqa.com/webtables");    //İlgili sayfayı açıyoruz.
         this.driver.manage().window().maximize();           //Sayfayı büyütüyoruz.
