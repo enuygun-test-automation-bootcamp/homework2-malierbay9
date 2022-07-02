@@ -24,7 +24,7 @@ public class TestExistenceOfElement {
         return !this.driver.findElements(By.id("searchBox")).isEmpty();
         //findElements() metodu içine girdiğimiz locatorlara sahip elementlerin listesini döndürür.
         //isEmpty() metodu bu listenin boş olup olmadığını kontrol eder . Liste boş ise 'true', doluysa 'false' döndürür.
-        //isExist metodunun Liste dolu olduğu zaman 'true', boş olduğu zaman 'false' döndürmesi için ifadenin başına '!' koyup değilleriz.
+        //isExist metodunun, liste dolu olduğu zaman 'true', boş olduğu zaman 'false' döndürmesi için ifadenin başına '!' koyup değilleriz.
         //Bu şekilde girdiğimiz locator a sahip bir element sayfada mevcut mu değil mi test edebiliriz.
 
     }
