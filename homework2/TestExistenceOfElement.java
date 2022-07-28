@@ -15,7 +15,7 @@ public class TestExistenceOfElement {
         this.driver.get("https://demoqa.com/webtables");    //İlgili sayfayı açıyoruz.
         this.driver.manage().window().maximize();           //Sayfayı büyütüyoruz.
 
-        //Bunların hepsi yapıcı metotta olduğu için nesne oluşturduğumuzda çalışacaktır.
+        //Bunların hepsi yapıcı metotta olduğu için nesne oluşturduğumuzda çalışacaktır
 
     }
 

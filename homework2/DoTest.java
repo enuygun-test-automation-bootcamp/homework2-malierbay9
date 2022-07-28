@@ -13,7 +13,7 @@ public class DoTest {
         this.isElementExist = new TestExistenceOfElement();  //Nesne üretiyoruz.
     }
 
-    @Test // Test anotasyonu altındaki metodun test case olarak çalışacağını belirtir.
+    @Test // Test anotasyonu altındaki metodun test case olarak çalışacağını belirtir
     public void test(){
 
         Assertions.assertEquals(true, isElementExist.isExist());
